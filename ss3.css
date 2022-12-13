@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 18px;
+}
+html{
+    border: solid 1px #516FD4
+}
+header{
+    text-align: center;
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-container{
+    padding: 0;
+    margin: 50px;
+}
+.header-container--logo{
+    position: absolute;
+    top: 1rem;
+}
+.header-container--logo #text-logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header-container--nav{
+    position: absolute;
+    left : 100px;
+    display : flex;
+    gap : 80px;
+    top: 6.5rem;
+}
+.header-container--nav .search-box{
+    display:flex;
+    flex-direction: column;
+}
+.header-container--nav .search-box input{
+    padding: 13px 16px;
+    border-radius: 7px;
+    width : 100%;
+}
+.header-container--nav .search-box button{
+    position: absolute;
+    top: 1px;
+    background: #ffff;
+    left:3px;
+    border-radius: 7px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+.header-container--nav a{
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.header-container--nav a.active{
+    background-color: #849FFF;
+    color: white;
+}
+
+
+.main-container{
+    position:relative;
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.main-container .use-1{
+    position:absolute;
+    border: none;
+    width: 327px;
+    height:  208px;
+    left: 100px;
+    top: 300px;
+    background: #FBFCFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 40px;
+}
+.main-container .use-1 .use-1-text{
+    display: block;
+    font-family: 'Merriweather';
+    font-style: normal;
+}
+.main-container .use-1 .use-1-text .interests{
+    position:absolute;
+    top: 120px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+.main-container .use-1 .use-1-text .interests .interests-clothes ,.interests-stem{
+    font-size: 12px;
+    color: #516FD4;
+    padding: 5px 20px;
+    margin : 10px;
+    border: solid 1px #516FD4;
+    border-radius: 20px;
+}
