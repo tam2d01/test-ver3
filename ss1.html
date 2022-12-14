@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ss1</title>
+    <style >
+        *{
+            box-sizing:border-box;
+            padding : 0;
+            margin : 0;
+        }
+        body{
+            font-size: 18px;
+            text-align: center ;
+            padding: 100px;
+            margin : 50px 33%;
+            border : solid 1px #000;
+            width : 500px; 
+            height : auto;
+            position: relative;
+        }
+        h1{
+            position:absolute;
+            top: 1px;
+            padding : 10px 100px;
+            color:rgb(203, 32, 38);
+        }
+        .prime{
+            position:absolute;
+            display :block;
+            right: 2px;
+            padding : 4px;
+            top : 100px;
+        }
+        .prime input{
+            border-radius: 5px;
+            width : 100%;
+            padding : 2px;
+        }
+        .prime button{
+            font-size: 17px;
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="text-prime">Prime </h1>
+    <form action="#" class="prime">
+        <input type="number" class="number-a" id="btn-number-a" value="" placeholder="Enter a lower number( a < b ):">
+        <input type="number" class="number-b" id="btn-number-b" value="" placeholder="Enter higher number( b> a ) :">
+        <input type="number" class="show-results" id="btn-show-results" placeholder="show results:">
+        <button type="button" class="button" id=" button-btn" onclick="prime()"> OK </button>
+    </form>
+
+    <script src="./js.js"></script>
+</body>
+</html

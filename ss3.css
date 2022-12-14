@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+    position:relative;
+    padding :18px;
+    margin : 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-container--logo p{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+}
+.header-container--nav{
+    position:absolute;
+    display : flex;
+    padding  : 70px;
+    left: 170px;
+    right : 0;
+    gap : 50px;
+}
+.header-container--nav .search-box{
+    color : white;
+    display:flex;
+    font-size: 20px;
+}
+.header-container--nav .search-box input{
+    padding : 14px 16px;
+    border: solid 1px #516FD5;;
+    border-radius: 5px;
+}
+.header-container--nav .search-box button{
+    padding : 12px 10px;
+    border: none;
+    margin : 8px;
+    position:absolute;
+    right : 78%;
+    background: #ffff;
+    cursor: pointer;
+}
+.header-container--nav .search-box button i{
+    font-size: 15px;
+    color: darkgray;
+}
+.header-container--nav a {
+    text-decoration: none;
+    padding : 14px 16px;
+    font-size: 20px;
+}
+.header-container--nav a.active{
+    background-color: #849FFF;
+    color: white;
+    border-radius: 5px;
+}
+main{
+    position:absolute;
+    padding  : 70px;
+    left: 180px;
+    top: 250px
+}
+.main-container{
+    display:inline-flex;
+    gap: 16px;
+}
+/* user 1 */
+.main-container .use-1{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    border: solid 1px #FBFCFF;
+    background: #FBFCFF;
+    width: 327px;
+    height : 208px;
+    border-radius: 16px;
+}
+.main-container .use-1 .use-1-text{
+    position:absolute;
+    left : 200px;
+    color: #516FD5;
+}
+.main-container .use-1 .use-1-text #text-use1{
+    font-family:'Merriweather';
+    font-style: Black;
+    font-size: 18px;
+}
+
+.main-container .use-1 .use-1-text .address1{
+    font-family:'Poppins';
+    font-style: Medium;
+    font-size: 14px;
+}
+.main-container .use-1 .interests1{
+    display: inline-flex;
+    position : absolute;
+    top: 60px;
+    right : -1px;
+    left : -1px;
+}
+.main-container .use-1 .interests1 .interests-clothes, .interests-stem{
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : 80px;
+    margin : 10px;
+}
+/* user 2 */
+.main-container .use-2{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    border: solid 1px #BFC8E5;
+    background: #FBFCFF;
+    width: 327px;
+    height : 208px;
+    border-radius: 16px;
+}
+.main-container .use-2 .use-2-text{
+    position:absolute;
+    left : 540px;
+    color: #516FD5;
+}
+.main-container .use-2 .use-2-text #text-use2{
+    font-family:'Merriweather';
+    font-style: Black;
+    font-size: 18px;
+}
+
+.main-container .use-2 .use-2-text .address2{
+    font-family:'Poppins';
+    font-style: Medium;
+    font-size: 14px;
+}
+.main-container .use-2 .interests2{
+    display: inline-flex;
+    position : absolute;
+    top: 60px;
+    right : -1px;
+    left : -1px;
+    flex-grow: inherit;
+}
+.main-container .use-2 .interests2 .interests-headset{
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+}
+.main-container .use-2 .interests2 .interests-speed{
+    position : absolute;
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+    top : 40px;
+}
+.main-container .use-2 .interests2 .interests-winter{
+    position : absolute;
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+    top : 40px;
+    left : 100px;;
+}
+/* user 3 */
+.main-container .use-3 .use-3-text{
+    position:absolute;
+    left : 890px;
+    color: #516FD5;
+}
+.main-container .use-3 .use-3-text #text-use3{
+    font-family:'Merriweather';
+    font-style: Black;
+    font-size: 18px;
+}
+
+.main-container .use-3 .use-2-text .address3{
+    font-family:'Poppins';
+    font-style: Medium;
+    font-size: 14px;
+}
+.main-container .use-3 .interests3{
+    display: inline-flex;
+    position : absolute;
+    top: 60px;
+    right : -1px;
+    left : -1px;
+    flex-grow: inherit;
+}
+.main-container .use-3 .interests3 .interests-road{
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+}
+.main-container .use-3 .interests3 .interests-earth{
+    position : absolute;
+    border: solid 1px #ccc; 
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+    top : 40px;
+}
+.main-container .use-3 .interests3 .interests-nature{
+    position : absolute;
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+    top : 40px;
+    left : 100px;
+}
+/* user 4*/
+.main-container .use-4{
+    top : 85%;
+    position: absolute;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    border: solid 1px #ffff;
+    background: #FBFCFF;
+    width: 327px;
+    height : 208px;
+    border-radius: 16px;
+}
+.main-container .use-4 .use-4-text ,.use-5-text{
+    position:absolute;
+    left : 120px;
+    color: #516FD5;
+}
+.main-container .use-4 .use-4-text #text-use4, #text-use5, #text-use6 {
+    font-family:'Merriweather';
+    font-style: Black;
+    font-size: 18px;
+}
+
+.main-container .use-4 .use-4-text .address4, .address5, .address6 {
+    font-family:'Poppins';
+    font-style: Medium;
+    font-size: 14px;
+}
+.main-container .use-4 .interests4,.interests5{
+    display: inline-flex;
+    position : absolute;
+    top: 60px;
+    right : -1px;
+    left : -1px;
+    flex-grow: inherit;
+}
+.main-container .use-4 .interests4 .interests-Maintenance, .interests-music, .interests-vintage{
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+}
+.main-container .use-4 .interests4 .interests-frames{
+    position : absolute;
+    border: solid 1px #ccc; 
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+    top : 40px;
+}
+.main-container .use-4 .interests4 .interests-repair{
+    position : absolute;
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    width : auto;
+    margin : 10px;
+    top : 40px;
+    left : 100px;
+}
+/* user 5 */
+.main-container .use-5{
+    top : 85%;
+    left : 413px;
+    position: absolute;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    border: solid 1px #ffff;
+    background: #FBFCFF;
+    width: 327px;
+    height : 208px;
+    border-radius: 16px;
+}
+/* user 6 */
+.main-container .use-6{
+    top : 85%;
+    left : 756px;
+    position: absolute;
+    display:inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    border: solid 1px #ffff;
+    background: #FBFCFF;
+    width: 327px;
+    height : 208px;
+    border-radius: 16px;
+}
+.main-container .use-6 .use-6-text{
+    color: #516FD5;
+}
+.main-container .use-6 .use-6-text .interests6{
+    display: inline-flex;
+    position : absolute;
+    top: 80px;
+    left : 130px;
+    flex-grow: inherit;
+}
